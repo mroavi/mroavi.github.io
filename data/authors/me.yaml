@@ -59,7 +59,7 @@ education:
       Thesis on exact inference optimization in discrete graphical models.
     button:
       text: Download dissertation
-      url: /resume.pdf
+      url: https://research.tue.nl/nl/publications/exact-inference-optimization-in-discrete-graphical-models/
       icon: hero/arrow-down-tray
   - degree: MSc Embedded Systems
     institution: Eindhoven University of Technology (TU/e)
@@ -77,10 +77,10 @@ experience:
     summary: |
       - Teacher of the Information and Communication Technology program
       - Researcher in the area of Robotics and Smart Industry
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
+    #button:
+    #  text: View portfolio
+    #  url: /
+    #  icon: hero/arrow-down-tray
   - role: Teacher
     org: Eindhoven University of Technology (TU/e)
     start: 2020-02-01
