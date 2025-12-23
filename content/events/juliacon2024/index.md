@@ -65,6 +65,9 @@ authors:
 
 tags: 
   - JuliaCon
+  - probabilistic inference
+  - tensor networks
+  - contraction order
 
 featured: true
 
@@ -73,14 +76,12 @@ image:
   focal_point: Right
 
 links:
-#  - icon: twitter
-#    icon_pack: fab
-#    name: Follow
-#    url: https://twitter.com/georgecushen
- - url: 'https://github.com/TensorBFS/TensorInference.jl'
-#url_pdf: ''
-#url_slides: 'https://github.com/mroavi/juliacon2024/blob/main/out/main.pdf'
-#url_video: 'https://www.youtube.com/live/1c4TTosBzzY?si=WXoCZl6FUmYg2KSN&t=16863'
+  - name: Video
+    url: https://www.youtube.com/live/1c4TTosBzzY?si=WXoCZl6FUmYg2KSN&t=16863
+  #- name: Source code
+  #  url: https://github.com/TensorBFS/TensorInference.jl
+  #- name: Slides
+  #  url: https://github.com/mroavi/juliacon2024/blob/main/out/main.pdf
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

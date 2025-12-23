@@ -30,6 +30,9 @@ authors:
 
 tags: 
   - JuliaCon
+  - junction tree algorithm
+  - probabilistic inference
+  - message-passing algorithms
 
 featured: true
 
@@ -38,14 +41,10 @@ image:
   focal_point: Right
 
 links:
-#  - icon: twitter
-#    icon_pack: fab
-#    name: Follow
-#    url: https://twitter.com/georgecushen
-  - url: 'https://github.com/mroavi/JunctionTrees.jl'
-# url_pdf: ''
-# url_slides: ''
-# url_video: 'https://youtu.be/5oPLzMh7ckQ?si=hGFr973DOUnnF8W3'
+  - name: Video
+    url: https://youtu.be/5oPLzMh7ckQ?si=hGFr973DOUnnF8W3
+  #- name: Source code
+  #  url: https://github.com/mroavi/JunctionTrees.jl
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
