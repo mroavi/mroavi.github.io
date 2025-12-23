@@ -19,7 +19,7 @@ publication_types: Conference Paper
 # Publication name and optional abbreviated publication name.
 publication: In *IEEE Potentials*
 
-#abstract:
+abstract: This article documents the design and implementation of an electronic field guide for bird watchers-named RB Birds-developed to run on mobile smart phones and aimed at looking up, checking, and identifying 362 bird species that are encountered at the Rio Blanco Ecological Reserve, "which is located on the outskirts of Manizales, Colombia. This application package has a database that contains information corresponding to each species including images, songs, physical descriptions, feeding habits, migratory movements in time and space, and habitat requirements, among others. RB Birds has a specialized search engine that allows the identification of specimens based on observed physical attributes.
 
 # Summary. An optional shortened abstract.
 #summary:
