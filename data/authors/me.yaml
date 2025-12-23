@@ -2,115 +2,169 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Martin Roa Villescas
+  given: Martin
+  family: Roa Villescas
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  pronouns: '' # Example: he/him
 postnominals:
   - PhD
-  - MIEEE
+  #- MIEEE
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "" # "☕️"
+role: Teacher & Researcher
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Martin Roa Villescas holds a BSc in Electronic Engineering from the National
+  University of Colombia and an MSc in Embedded Systems from Eindhoven
+  University of Technology (TU/e). He worked at Philips Research as an
+  embedded software designer from 2013 to 2018. He later returned to TU/e for
+  his doctoral research in model-based machine learning, carried out within
+  the PhD-Teaching Assistant trajectory combining research and teaching. Since
+  2023, he has been working at Fontys University of Applied Sciences in the
+  Netherlands, where he teaches in the Information and Communication
+  Technology program and conducts research in robotics and smart industry.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Fontys ICT
+    url: https://www.fontys.nl/Opleidingen/ICT-bachelor-voltijd.htm
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:m.roavillescas@fontys.nl
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+  #- icon: brands/x
+  #  url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/mroavi
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/martin-roa-villescas-02ab3417/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/citations?user=Ct79blwAAAAJ&hl
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0009-0009-0291-503X
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Robotics
+  - Bayesian Machine Learning
+  - Embedded Systems
+  - Full-Stack Development
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD Machine Learning
+    institution: Eindhoven University of Technology (TU/e)
+    start: 2018-02-01
+    end: 2025-12-17
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      Thesis on exact inference optimization in discrete graphical models.
     button:
       text: Download dissertation
       url: /resume.pdf
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: MSc Embedded Systems
+    institution: Eindhoven University of Technology (TU/e)
+    start: 2011-09-01
+    end: 2013-08-01
+  - degree: BSc Electronic Engineering
+    institution: Universidad Nacional de Colombia (UNAL)
+    start: 2005-08-01
+    end: 2010-07-01
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Teacher & Researcher
+    org: Fontys University of Applied Sciences
+    start: 2023-08-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+      - Teacher of the Information and Communication Technology program
+      - Researcher in the area of Robotics and Smart Industry
     button:
       text: View portfolio
       url: /
       icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+  - role: Teacher
+    org: Eindhoven University of Technology (TU/e)
+    start: 2020-02-01
+    end: 2023-07-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Courses:
+      <!-- - [Autonomous Vehicles (5AID0)](https://www.es.ele.tue.nl/education/5aid0/) -->
+      - Autonomous Vehicles (5AID0)
+      - Embedded Visual Control (5LIA0)
 
+# Skills
+# Add your own SVG icons to `assets/media/icons/`
+# See: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
   - name: Technical Skills
     items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
+      - name: Software Development
+        description: ''
+        percent: 80
+        icon: code-bracket
+      - name: Embedded Systems
+        description: ''
+        percent: 70
+        icon: hero/cpu-chip
+      - name: Machine Learning
+        description: ''
+        percent: 90
+        icon: chart-bar
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
     items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+      - name: Tennis
+        description: ''
+        percent: 75
+        # TODO: fix icon below
+        icon: person-simple-walk
+      - name: Football
+        description: ''
+        percent: 85
+        icon: hero/cube-transparent
+#      - name: Guitar
+#        description: ''
+#        percent: 60
+#        icon: guitar
+      - name: Travelling
+        description: ''
+        percent: 90
+        icon: camera
 
 languages:
-  - name: English
-    level: 5
-    label: Native
   - name: Spanish
-    level: 4
-    label: Fluent
+    percent: 100
+  - name: English
+    percent: 100
+  - name: Dutch
+    percent: 75
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: Huygens Scholarship
+    url: "https://www.nuffic.nl/en/subjects/scholarships"
+    date: "2011-09-01"
+    #date_end: "2013-08-01"
+    description: "Scholarship for MSc at Eindhoven University of Technology, Eindhoven, The Netherlands."
+    awarder: Dutch Minister for Education, Culture and Science
+    organization_url: https://www.government.nl/ministries/ministry-of-education-culture-and-science
+  - title: PAES Scholarship
+    url:
+    date: "2010-07-01"
+    #date_end: "2005-08-01"
+    description: "Scholarship for BSc at Universidad Nacional de Colombia, Manizales, Colombia."
+    awarder: Universidad Nacional de Colombia, Manizales, Colombia
+    organization_url: https://www.manizales.unal.edu.co/
+  - title: National Robot Olympics
+    url:
+    date: "2009-09-01"
+    #date_end: ""
+    description: "First place award in the line-follower category"
+    awarder: Universidad Pontificia Bolivariana, Medellín, Colombia
+    organization_url: https://www.upb.edu.co/
+  - title: Line Follower Robot Contest
+    url:
+    date: "2009-05-01"
+    #date_end: ""
+    description: "First place award"
+    awarder: Universidad Nacional de Colombia, Manizales, Colombia
+    organization_url: https://www.manizales.unal.edu.co/
