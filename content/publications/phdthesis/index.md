@@ -7,7 +7,7 @@ authors:
 date: "2025-12-17T00:00:00Z"
 
 publication_types:
-  - phdthesis
+  - PhD Dissertation
 
 # Publication name and optional abbreviated publication name.
 publication: "Eindhoven University of Technology"

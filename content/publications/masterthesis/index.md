@@ -12,7 +12,7 @@ date: "2013-08-25T00:00:00Z"
 publishDate: "2013-08-01T00:00:00Z"
 
 publication_types:
-  - mastersthesis
+  - Master Thesis
 
 # Publication name and optional abbreviated publication name.
 publication: "Eindhoven University of Technology"

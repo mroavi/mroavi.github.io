@@ -15,7 +15,7 @@ publishDate: "2024-07-24T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["6"]
+publication_types: Book Chapter
 
 # Publication name and optional abbreviated publication name.
 publication: In the *Artificial Intelligence - Machine Learning, Convolutional Neural Networks and Large Language Models*
