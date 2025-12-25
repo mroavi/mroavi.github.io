@@ -94,6 +94,13 @@ experience:
       <!-- - [Autonomous Vehicles (5AID0)](https://www.es.ele.tue.nl/education/5aid0/) -->
       - Autonomous Vehicles (5AID0)
       - Embedded Visual Control (5LIA0)
+  - role: Embedded Systems Designer
+    org: Philips Research
+    start: 2013-11-01
+    end: 2018-01-01
+    summary: |
+      Responsible for the design, implementation, and
+      documentation of embedded software and electronics
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
